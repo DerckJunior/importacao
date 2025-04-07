@@ -1,11 +1,47 @@
-*{
-    padding: 0;
-    margin: 0;
+main {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+p {
+    position: relative;
+    right: 0;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CBFFF;
+    border-radius: 20px;
+    max-width: 80%;
 
 }
 
 
+img {
+    height: 100%;
+    width: 50%;
+    position: relative;
 
-h1{
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+pre{
+    width: 100%;
+
+
+    p{
+        width: 100% !important;
+    }
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.center{
     text-align: center;
+    width: 100% !important;
 }
