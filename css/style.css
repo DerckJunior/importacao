@@ -1,8 +1,7 @@
-
 body {
 
     background-image: url('../imgs/background.jpeg');
-    
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -12,6 +11,8 @@ body {
 }
 
 
-a{
+a {
     color: white;
 }
+
+

@@ -1,5 +1,4 @@
-
-div#visor{
+div#visor {
 
     width: 100%;
     margin: auto;
@@ -13,10 +12,10 @@ div#visor{
 
 
 
-#emcima{
-    
+#emcima {
+
     position: fixed;
-    
+
     height: 5%;
     width: 100%;
     background-color: red;
@@ -32,11 +31,11 @@ div#visor{
 
 
 
-#meio{
+#meio {
     display: flex;
     flex-direction: column;
-    
-    
+
+
     padding-top: 46px;
     padding-bottom: 75px;
     height: 789px;
@@ -49,7 +48,7 @@ div#visor{
 }
 
 
-#meio > .slide-show{
+#meio>.slide-show {
 
 
 
@@ -61,7 +60,7 @@ div#visor{
 
 
 
-#meio > #conteudo{
+#meio>#conteudo {
 
     padding: 15px;
     display: flex;
@@ -72,7 +71,7 @@ div#visor{
 }
 
 
-#meio > #conteudo > .menu-item{
+#meio>#conteudo>.menu-item {
 
     height: 40px;
     width: 60px;
@@ -84,7 +83,7 @@ div#visor{
     border-radius: 4px;
 }
 
-#meio > section#parceiros{
+#meio>section#parceiros {
 
     height: 50px;
     background-color: blue;
@@ -95,7 +94,7 @@ div#visor{
 
 
 
-#baixo{
+#baixo {
     position: fixed;
 
 
@@ -106,18 +105,18 @@ div#visor{
     width: 100%;
 
 
-    background-color: aqua;
-}
+    background-color: black;
+
+    p {
+
+        width: 40px;
+        height: 40px;
+        font-size: 22px;
+        position: relative;
+        top: 15px;
+        color: white;
+        background-color: black;
+    }
 
 
-
-img{
-
-    width: 40px;
-    height: 40px;
-    
-    position: relative;
-    top: 15px;
-
-    background-color: black; 
 }

@@ -1,8 +1,7 @@
-
 body {
 
     background-image: url('../imgs/background.jpeg');
-    
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -38,22 +37,32 @@ img {
 }
 
 
-pre{
+pre {
     width: 100%;
 
 
-    p{
+    p {
         width: 100% !important;
     }
 }
 
 
-a{
+a {
     text-decoration: none;
 }
 
 
-.center{
+.center {
     text-align: center;
     width: 100% !important;
+}
+
+
+#video {
+
+    iframe {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
 }
