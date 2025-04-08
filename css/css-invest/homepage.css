@@ -1,0 +1,123 @@
+
+div#visor{
+
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+#emcima{
+    
+    position: fixed;
+    
+    height: 5%;
+    width: 100%;
+    background-color: red;
+
+
+}
+
+
+
+
+
+
+
+
+
+#meio{
+    display: flex;
+    flex-direction: column;
+    
+    
+    padding-top: 46px;
+    padding-bottom: 75px;
+    height: 789px;
+    width: 100%;
+
+
+    background-color: aquamarine;
+
+
+}
+
+
+#meio > .slide-show{
+
+
+
+
+    height: 200px;
+    background-color: black;
+}
+
+
+
+
+#meio > #conteudo{
+
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+
+#meio > #conteudo > .menu-item{
+
+    height: 40px;
+    width: 60px;
+    background-color: rgb(196, 117, 196);
+
+    border-style: solid;
+    border-color: black;
+    border-width: .24px;
+    border-radius: 4px;
+}
+
+#meio > section#parceiros{
+
+    height: 50px;
+    background-color: blue;
+}
+
+
+
+
+
+
+#baixo{
+    position: fixed;
+
+
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    height: 75px;
+    width: 100%;
+
+
+    background-color: aqua;
+}
+
+
+
+img{
+
+    width: 40px;
+    height: 40px;
+    
+    position: relative;
+    top: 15px;
+
+    background-color: black; 
+}
