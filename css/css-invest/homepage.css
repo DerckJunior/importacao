@@ -4,13 +4,6 @@ div#visor {
     margin: auto;
     display: flex;
     flex-direction: column;
-}
-
-
-
-
-
-
 
 #emcima {
 
@@ -24,76 +17,6 @@ div#visor {
 }
 
 
-
-
-
-
-
-
-
-#meio {
-    display: flex;
-    flex-direction: column;
-
-
-    padding-top: 46px;
-    padding-bottom: 75px;
-    height: 789px;
-    width: 100%;
-
-
-    background-color: aquamarine;
-
-
-}
-
-
-#meio>.slide-show {
-
-
-
-
-    height: 200px;
-    background-color: black;
-}
-
-
-
-
-#meio>#conteudo {
-
-    padding: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-
-}
-
-
-#meio>#conteudo>.menu-item {
-
-    height: 40px;
-    width: 60px;
-    background-color: rgb(196, 117, 196);
-
-    border-style: solid;
-    border-color: black;
-    border-width: .24px;
-    border-radius: 4px;
-}
-
-#meio>section#parceiros {
-
-    height: 50px;
-    background-color: blue;
-}
-
-
-
-
-
-
 #baixo {
     position: fixed;
 
@@ -101,7 +24,7 @@ div#visor {
     display: flex;
     justify-content: space-around;
     bottom: 0;
-    height: 75px;
+    height: 10%;
     width: 100%;
 
 
@@ -119,4 +42,53 @@ div#visor {
     }
 
 
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cursos {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+
+a{
+    height: 100%;
+    width: 25%;
+}
+.curso{
+    background-color: black;
+    height: 100%;
+    width: 85%;
+    
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#importacao{
+    background-image: url('../../capas/capa1.jpg');
+}
+
+#trafego-pago{
+    background-image: url('../../capas/capa2.jpg');
+}
+
+#dropshipping-nacional{
+    background-image: url('../../capas/capa3.jpg');
 }
