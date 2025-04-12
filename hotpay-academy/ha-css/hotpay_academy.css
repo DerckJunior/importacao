@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+main {
+
+    height: 100%;
+
+
+    img {
+        width: 100%;
+    }
+}
+
+
+.modulos {
+    display: inline;
+
+    
+    width: 100%;
+
+
+
+    display: flex;
+    flex-direction: row;
+    
+
+    img {
+        height: 100%;
+        width: 50%;
+    }
+}
+
+p{
+    text-align: center;
+}
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+.center {
+    text-align: center;
+    width: 100% !important;
+}
+
+
+#video {
+
+    iframe {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
