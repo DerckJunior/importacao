@@ -82,25 +82,40 @@ a{
 }
 
 #importacao{
-    background-image: url('../../capas/capa1.jpg');
+    background-image: url('../capas/capa1.jpg');
 }
 
 #trafego-pago{
-    background-image: url('../../capas/capa2.jpg');
+    background-image: url('../capas/trafego_pago_capa.jpg');
 }
 
 #dropshipping-nacional{
-    background-image: url('../../capas/capa3.jpg');
+    background-image: url('../capas/capa3.jpg');
 }
 
 #hotpay-academy{
-    background-image: url('../../capas/hotpay_capa.jpg');
+    background-image: url('../capas/hotpay_capa.jpg');
 }
 
 #afiliado-de-apostas{
-    background-image: url('../../capas/apostas_capa.jpg');
+    background-image: url('../capas/apostas_capa.jpg');
 }
 
 #sms-marketing{
-    background-image: url('../../capas/sms_marketing_capa.jpg');
+    background-image: url('../capas/sms_marketing_capa.jpg');
+}
+
+
+
+#despertar-digital{
+    background-image: url('../capas/despertar_digital_capa.jpg');
+}
+
+#magnata{
+    background-image: url('../capas/magnata_capa.jpg');
+}
+
+
+#ultimo-chamado{
+    background-image: url('../capas/ultimo_chamado_capa.jpg');
 }
